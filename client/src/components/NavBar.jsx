@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import {Link, useNavigate} from 'react-router-dom';
+import {Link, useNavigate } from 'react-router-dom';
 import {TfiWrite} from 'react-icons/tfi'
 import {VscGraph} from 'react-icons/vsc'
 import {BsFillFileEarmarkPersonFill, BsMenuDown} from 'react-icons/bs'
@@ -13,7 +13,7 @@ function NavBar (props){
 
   const navigate = useNavigate()
 
-  useEffect(() => {
+  useEffect(() => { 
     if(sessionStorage.getItem('nombre')){
       setautenticado(true)
       user.current='/home'
