@@ -7,7 +7,6 @@ function Home(){
   const navigate = useNavigate()
 
   useEffect(() =>{
-    console.log(sessionStorage.getItem('nombre'))
     if(sessionStorage.getItem('nombre')==null)
       navigate('/login')
   },[]) 

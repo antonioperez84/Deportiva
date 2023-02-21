@@ -48,15 +48,12 @@ function JugadorForm() {
           
           if (params.id){
             const id = new Number(params.id)
-            await actualizaJugador(id, values)
-            
+            await actualizaJugador(id, values)  
           }else{
-            await crearJugadores(values)
-            
+            await crearJugadores(values)  
           }
-          actions.resetForm()  
-          navigate('/')
-            
+            actions.resetForm()  
+            navigate('/')
           }
         } 
         enableReinitialize={true}>
