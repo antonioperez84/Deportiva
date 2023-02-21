@@ -15,7 +15,7 @@ const JugadorTarjeta = ({jugador}) => {
         <div className='w-15'>
           <div className='flex justify-between text-white'>
             <h3 className='text-xl font-bold'>{jugador.nombre}</h3>
-            <h3 className='text-sm font-bold'>{jugador.edad}</h3>
+            
           </div>
           <h3 className='text-green-900 font-bold text-xl'>{jugador.posicion}</h3>
         </div>

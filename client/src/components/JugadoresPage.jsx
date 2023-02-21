@@ -21,7 +21,7 @@ function renderizarInicio (){
   return(
     <div className='w-auto'>
       <h1 className='text-5xl text-white font-bold text-center py-3'>Jugadores</h1>
-      <div className='flex flex-col gap-2 h-max'>
+      <div className='grid grid-cols-3 gap-2 h-max'>
         {renderizarInicio()}
       </div>
     </div>  
